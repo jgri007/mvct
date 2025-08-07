@@ -1,0 +1,258 @@
+:root {
+  --ancho: 1600px;
+  --max-width: 800px; /* Ancho pantalla para el cambio de modo */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 11pt;
+  color: #353636;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+h1{
+  font-size: 16pt;
+}
+
+h2{
+  font-size: 12pt;
+}
+
+header{
+  text-align: center;
+  padding: 1rem;
+  background: Azure;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: slategrey;
+  color: white;
+}
+
+.divM {
+  display: table;
+  width: 100%;
+}
+
+aside {
+  display: table-cell;
+  /* background: honeydew; */
+  width: 290px;
+  min-width: 290px;
+}
+
+section {
+  display: block;
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+@media (max-width: 600px){
+  section {
+    display: block;
+    width: 100%;
+  }
+  
+  aside {
+    display: block;
+    width: 100%;
+  }
+
+  .pantallaGrande { 
+    display: none; 
+  }
+
+}
+
+@media not (max-width: 600px){
+  .pantallaPequeña { 
+    display: none; 
+  }
+}
+
+
+.Cabecera, .Controles, .Datos, .Pie, fieldset, header, section, aside {
+  /* border: 1px solid gray;
+  border-radius: 5px;
+  /* padding: 8px; */
+  margin: 3px; 
+  /* vertical-align: middle; */
+
+}
+
+.movMovil {
+  width: 90%;
+  margin: 0 auto;
+  padding: 9px;
+  border-bottom: 1px solid #ddd;
+  line-height: 1.5;
+}
+
+.Pie { 
+  text-align: center;
+}
+
+.movFecha {
+  text-align:left;
+  color: darkblue;
+  font-size: 1.2rem;
+}
+
+.movImporte {
+  float:right;
+  font-size: 1.2rem;
+}
+
+.nNegativo {
+  color: darkred;
+}
+
+.nPositivo {
+  color: green;
+}
+
+table { 
+  width: 98%;
+  table-layout: fixed;
+}
+
+.movs{
+  /* min-width: 1200px; */
+  min-width: 1200px;
+}
+
+
+table.movs {
+    /*width: var(--ancho);*/
+    border-collapse: collapse;
+    text-align: left;
+    /*font: 15px  Calibri, sans-serif;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movs td {
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    padding: 6px 8px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+.movs tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.movs tr:last-child { 
+    background-color: #ffffff;
+    border-bottom: 1px solid #f2f2f2;
+    vertical-align: middle;
+    padding: 8px;
+    font-weight: bold;
+    height: 30px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+}
+
+.movs th {
+    background-color:SlateGray;
+    border-left: 2px solid white;
+    color: white;
+    /* border-bottom: 1px solid #f2f2f2;
+    height: 30px;*/
+    vertical-align: middle;
+    padding: 5px 15px;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    font-size: 1.1rem;
+    border-radius: 5px;
+    /* height: 20px; */
+}
+
+.movs td:nth-child(4) { 
+  text-align: end; 
+  width: 120px;
+}
+
+.movs tr:last-child  td:nth-child(7){
+  font-weight: lighter;
+  font-size: 9pt;
+  color: dimgrey;
+}
+
+
+.movs th:hover
+{
+    background-color: darkblue;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.movs td:hover {
+  display: list-item;
+  font-weight: bold;
+  white-space:normal;
+}
+
+input {
+  text-align: left;
+  border: 1px solid #79b2e6;
+  color: darkblue;
+  height: 25px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+input[type=text] {
+  width: 140px;
+}
+
+input[type=number] {
+  text-align: right;
+  width: 110px;
+}
+
+input[type=date] {
+  text-align: center;
+  width: 110px;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+  font-size: 6px;
+}
+
+button {
+  margin: 2px;
+  padding: 4px;
+  width: 100px;
+}
+
+
+fieldset {
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+select {
+  text-align: left;
+  border: 1px solid #79b2e6;
+  color: darkblue;
+  height: 25px;
+  border-radius: 4px;
+  margin: 2px;
+}

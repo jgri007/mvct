@@ -1,0 +1,6 @@
+open nasgrolmos.synology.me
+jesus
+Nspetard0()
+cd web/mvct/
+put A:\Programas\HTML-JavaScript\MvCt\mvctdata.js
+quit

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="accounting.ico">
+  <title>MvCt</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="flipswitch.css" rel="stylesheet" type="text/css" />
+    
+  <script src="script.js"></script>
+  <script src="mvctmiashb.dat" type="text/javascript"></script>
+  <script src="mvctyayahb.dat" type="text/javascript"></script>
+</head>
+
+<body onload="inicio();">
+  <!-- <header>Mis movs</header> -->
+  
+  <div class="divM">
+    <aside id="Controles">
+      <!-- aside Content -->
+      <!-- <div class="Controles" id="Controles"></div> -->
+      <h2>Parámetros de búsqueda:</h2>
+
+        <fieldset>
+          <legend>Búsqueda de texto</legend>
+         
+          <table >
+            <tr>
+              <td>
+                <input type="text" id="inTxBuscar" placeholder="Texto a buscar" onchange="borraFiltros()"
+                title="Se pueden poner hasta 3 palabras separadas por comas.
+                Se devuelven los movimientos que contienen las 3 palabras repartidas en cualquiera de los campos.">
+              </td>
+              <td>
+                <label class="toggle">
+                  <input type="checkbox" onclick="cambiaBBDD()" id="fs" checked>
+                  <span class="labels" data-on="Mía" data-off="Yaya"></span>
+                </label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><button type="button" id="btBuscar" onclick=buscar()>Buscar</button></td>
+              <td><button type="button" id="btBorrar" onclick=inicializar()>Quitar Filtros</button></td>
+            </tr>
+
+          </table>
+        </fieldset>
+      
+        <div class="pantallaGrande">
+          <fieldset>
+            <table>
+                <tr>
+                  <td><label for="inImporteDesde"> Importe desde: </label></td>
+                  <td><input type="number" id="inImporteDesde" min="0" max="50000" value="0" onchange="buscar()"
+              oninput="buscar()"></td>
+                </tr>
+                <tr>
+                  <td><label for="inImporteHasta"> Importe hasta: </label></td>
+                  <td><input type="number" id="inImporteHasta" min="0" max="50000" value="20000" onchange="buscar()"
+              oninput="buscar()"></td>
+                </tr>
+            </table>          
+          </fieldset>
+
+          <fieldset>
+            <table>
+                <tr>
+                  <td><label for="inFechaDesde"> Fecha desde: </label></td>
+                  <td><input type="date" id="inFechaDesde" class="button" onchange="buscar()"></td>
+                </tr>
+                <tr>
+                  <td><label for="inFechaHasta"> Fecha hasta: </label></td>
+                  <td><input type="date" id="inFechaHasta" class="button" onchange="buscar()"></td>
+                </tr>
+            </table>  
+            <hr>
+            <table>
+                <tr>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="MesAct">Mes actual</td>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="AnoAct">Año actual</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="MesAnt">Mes anterior</td>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="AnoAnt">Año anterior</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="Ult30d" id="fSel">Últs. 30 días</td>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="Ult03m">Últs. 3 meses</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="Ult06m">Últs. 6 meses</td>
+                  <td><input type="radio" name="rFecha" onchange="actualizaDatos()" value="Ult12m">Últs. 12 meses</td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="radio" name="rFecha" onchange="actualizaDatos()" value="Todas" id="fSelTodas">Todas las fechas</td>
+                </tr>
+            </table>
+          </fieldset>
+
+          <fieldset>
+            <table>
+                  <td><label for="inNumRegistros"> Registros a listar: </label></td>
+                  <td><input type="number" id="inNumRegistros" min="10" max="50000" value="50" step="5" onchange=buscar()></td>
+            </table>        
+            <hr>
+            <table>
+                <tr>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=35 id="m35">35 </td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=50>50</td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=100 id="m100">100</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=250>250</td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=500>500</td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=1000>1.000</td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=2500>2.500</td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=5000>5.000</td>
+                  <td><input type="radio" name="nRegistros" onchange="actualizaDatos()" value=10000 id="mTodos">10.000</td>
+                </tr>
+            </table>
+          </fieldset>
+          <fieldset>
+            <legend>Búsquedas predefinidas</legend>
+            <label for="selector">Selecciona opción:</label>
+            <select id="selector" onchange="seleccion()">
+                <option value="">--Seleccionar opción--</option>
+                <option value="alimentación">alimentación</option>
+                <option value="piso">piso</option>
+                <option value="pelu,jes">Peluquería mía</option>
+            </select>
+          </fieldset>
+      </div>
+    </aside>
+
+    <section>
+      <!-- Section Content -->
+      <div class="pantallaGrande">
+          <!-- Esto sale sólo en la pantalla grande -->
+          <table id="tblMovimientos" class="movs">
+            <thead>
+              <tr>
+                <th style="width:70px" onclick="sortTable(0)">Fecha</th>
+                <th style="width:15%"  onclick="sortTable(1)">Cuenta</th>
+                <th style="width:15%"  onclick="sortTable(2)">Beneficiario</th>
+                <th style="width:85px" onclick="sortTable(3)">Importe</th>
+                <th style="width:25%"  onclick="sortTable(4)">Categoría:Subcategoría</th>
+                <th style="width:30%"  onclick="sortTable(5)">Notas</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+      </div>
+      <div id="divMovimientos" class="pantallaPequeña">
+        Esto sale sólo en la pantalla pequeña
+      </div>
+    </section>
+    
+  </div>
+  <div class="Pie" id="pie">Pie</div>
+
+
+  <footer>
+    <script type="text/javascript">
+      document.write(version)
+    </script>
+  </footer>
+  
+</body>
+
+</html>
