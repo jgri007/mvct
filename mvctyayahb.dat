@@ -1,6 +1,6 @@
 ﻿// mvYaya = Matriz con todos los movimientos de las cuentas
-// Fichero generado el 30/06/2026 a las 11:42:53
-const fDatamvYaya= "Fecha datos: 30/06/2026 - 11:42:53. Fecha último movimiento importado: 24/06/2026"
+// Fichero generado el 30/06/2026 a las 11:46:25
+const fDatamvYaya= "Fecha datos: 30/06/2026 - 11:46:25. Fecha último movimiento importado: 24/06/2026"
 const mvYaya = [
 	{
 		isodate:"2026-06-24",
