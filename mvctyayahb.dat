@@ -1,7 +1,97 @@
 ﻿// mvYaya = Matriz con todos los movimientos de las cuentas
-// Fichero generado el 06/07/2026 a las 14:22:04
-const fDatamvYaya= "Fecha datos: 06/07/2026 - 14:22:04. Fecha último movimiento importado: 24/06/2026"
+// Fichero generado el 24/07/2026 a las 9:23:34
+const fDatamvYaya= "Fecha datos: 24/07/2026 - 9:23:34. Fecha último movimiento importado: 23/07/2026"
 const mvYaya = [
+	{
+		isodate:"2026-07-23",
+		account:"Pili y Nieves ING",
+		payee:"C.P. Chiva,42",
+		importeval:-60.98,
+		category:"Chiva 42-3",
+		subcategory:"Comunidad",
+		wording:"Gastos Cominidad 2026 2T",
+	},
+	{
+		isodate:"2026-07-21",
+		account:"CB Sabadell",
+		payee:"C.P. En Llop",
+		importeval:-145.5,
+		category:"En Llop",
+		subcategory:"Comunidad",
+		wording:"Gastos Comunidad 2026 2T",
+	},
+	{
+		isodate:"2026-07-20",
+		account:"CB Sabadell",
+		payee:"IVA",
+		importeval:-1815.53,
+		category:"Impuestos",
+		subcategory:"IVA",
+		wording:"IVA Modelo 303 Declaración Trimestral",
+	},
+	{
+		isodate:"2026-07-16",
+		account:"Pili y Nieves ING",
+		payee:"C.P. Puebla Valverde",
+		importeval:-284.62,
+		category:"P.Valverde",
+		subcategory:"Comunidad",
+		wording:"Gastos Comunidad 2026 2T",
+	},
+	{
+		isodate:"2026-07-14",
+		account:"CB Sabadell",
+		payee:"Y.I. Valenzuela",
+		importeval:850,
+		category:"Chiva 42-3",
+		subcategory:"Alquiler",
+		wording:"",
+	},
+	{
+		isodate:"2026-07-03",
+		account:"CB Sabadell",
+		payee:"C.P. Vicomán",
+		importeval:-14.21,
+		category:"Apartamento",
+		subcategory:"Comunidad",
+		wording:"Gastos comunidad Vicoman retrasos",
+	},
+	{
+		isodate:"2026-07-03",
+		account:"CB Sabadell",
+		payee:"C.P. Vicomán",
+		importeval:-160,
+		category:"Apartamento",
+		subcategory:"Comunidad",
+		wording:"Gastos comunidad Vicoman",
+	},
+	{
+		isodate:"2026-07-03",
+		account:"CB Sabadell",
+		payee:"Electro BB",
+		importeval:575.69,
+		category:"P.Valverde",
+		subcategory:"Alquiler",
+		wording:"",
+	},
+	{
+		isodate:"2026-07-03",
+		account:"CB Sabadell",
+		payee:"Electro BB",
+		importeval:120.89,
+		category:"Impuestos",
+		subcategory:"IVA",
+		wording:"",
+	},
+	{
+		isodate:"2026-07-03",
+		account:"CB Sabadell",
+		payee:"Electro BB",
+		importeval:-109.38,
+		category:"Impuestos",
+		subcategory:"IRPF",
+		wording:"",
+	},
 	{
 		isodate:"2026-06-24",
 		account:"Pili y Nieves ING",
@@ -2313,7 +2403,7 @@ const mvYaya = [
 		importeval:-357.43,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Pili - Registro EnLlop)",
+		wording:"Herencia yayo (Nieves - Registro EnLlop)",
 	},
 	{
 		isodate:"2025-03-11",
@@ -2322,7 +2412,7 @@ const mvYaya = [
 		importeval:-357.43,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Nieves - Registro EnLlop)",
+		wording:"Herencia yayo (Pili - Registro EnLlop)",
 	},
 	{
 		isodate:"2025-03-05",
@@ -6542,7 +6632,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Sabadell (Yaya)",
+		subcategory:"Cajamar (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -6551,7 +6641,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Cajamar (Yaya)",
+		subcategory:"Sabadell (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -7416,7 +7506,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2023-06-25",
@@ -7425,16 +7515,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
-	},
-	{
-		isodate:"2023-06-24",
-		account:"Sabadell (Yaya)",
-		payee:"Seguridad Social",
-		importeval:584.97,
-		category:"Sueldo",
-		subcategory:"Pensión Pilar Viudedad",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2023-06-24",
@@ -7444,6 +7525,15 @@ const mvYaya = [
 		category:"Sueldo",
 		subcategory:"Pensión Pilar Viudedad",
 		wording:"Extra",
+	},
+	{
+		isodate:"2023-06-24",
+		account:"Sabadell (Yaya)",
+		payee:"Seguridad Social",
+		importeval:584.97,
+		category:"Sueldo",
+		subcategory:"Pensión Pilar Viudedad",
+		wording:"",
 	},
 	{
 		isodate:"2023-06-21",
@@ -11178,7 +11268,7 @@ const mvYaya = [
 		importeval:404.77,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2022-06-25",
@@ -11187,7 +11277,7 @@ const mvYaya = [
 		importeval:404.77,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2022-06-24",
@@ -24030,7 +24120,7 @@ const mvYaya = [
 		importeval:50,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ATRASOS ALQUILER EN LLOP N2.ALCA",
+		wording:"INGRESO CAJERO ATRASOS ALQUILER EN LLOP N2. ALC",
 	},
 	{
 		isodate:"2016-01-18",
@@ -24039,7 +24129,7 @@ const mvYaya = [
 		importeval:50,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ATRASOS ALQUILER EN LLOP N2. ALC",
+		wording:"INGRESO CAJERO ATRASOS ALQUILER EN LLOP N2.ALCA",
 	},
 	{
 		isodate:"2016-01-15",
@@ -24750,7 +24840,7 @@ const mvYaya = [
 		importeval:65,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO PAGO.DIA5SEP.ALQ.C.ENLLOPN2.ALCA",
+		wording:"INGRESO CAJERO PAGO.ENLLOP2.DIA4SEP.ALCASTILLO.",
 	},
 	{
 		isodate:"2015-09-07",
@@ -24759,7 +24849,7 @@ const mvYaya = [
 		importeval:65,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO PAGO.ENLLOP2.DIA4SEP.ALCASTILLO.",
+		wording:"INGRESO CAJERO PAGO.DIA5SEP.ALQ.C.ENLLOPN2.ALCA",
 	},
 	{
 		isodate:"2015-09-04",
