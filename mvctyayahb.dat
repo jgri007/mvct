@@ -1,7 +1,43 @@
 ﻿// mvYaya = Matriz con todos los movimientos de las cuentas
-// Fichero generado el 14/09/2026 a las 16:02:08
-const fDatamvYaya= "Fecha datos: 14/09/2026 - 16:02:08. Fecha último movimiento importado: 08/09/2026"
+// Fichero generado el 05/10/2026 a las 8:34:37
+const fDatamvYaya= "Fecha datos: 05/10/2026 - 8:34:37. Fecha último movimiento importado: 17/09/2026"
 const mvYaya = [
+	{
+		isodate:"2026-09-17",
+		account:"CB Sabadell",
+		payee:"C.P. En Llop",
+		importeval:-341.9,
+		category:"En Llop",
+		subcategory:"Reparaciones",
+		wording:"Derrama Reparaciones",
+	},
+	{
+		isodate:"2026-09-17",
+		account:"CB Sabadell",
+		payee:"El Porteño",
+		importeval:2318,
+		category:"En Llop",
+		subcategory:"Alquiler",
+		wording:"",
+	},
+	{
+		isodate:"2026-09-17",
+		account:"CB Sabadell",
+		payee:"El Porteño",
+		importeval:486.78,
+		category:"Impuestos",
+		subcategory:"IVA",
+		wording:"",
+	},
+	{
+		isodate:"2026-09-17",
+		account:"CB Sabadell",
+		payee:"El Porteño",
+		importeval:-440.42,
+		category:"Impuestos",
+		subcategory:"IRPF",
+		wording:"",
+	},
 	{
 		isodate:"2026-09-08",
 		account:"CB Sabadell",
@@ -2574,7 +2610,7 @@ const mvYaya = [
 		importeval:-387.2,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Herencia yaya (Pili)",
+		wording:"Herencia yaya (Nieves)",
 	},
 	{
 		isodate:"2025-03-13",
@@ -2583,7 +2619,7 @@ const mvYaya = [
 		importeval:-387.2,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Herencia yaya (Nieves)",
+		wording:"Herencia yaya (Pili)",
 	},
 	{
 		isodate:"2025-03-11",
@@ -3933,7 +3969,7 @@ const mvYaya = [
 		importeval:-280,
 		category:"Regalos",
 		subcategory:"",
-		wording:"Colgante Nieves",
+		wording:"Colgante Pili",
 	},
 	{
 		isodate:"2024-07-10",
@@ -3942,7 +3978,7 @@ const mvYaya = [
 		importeval:-280,
 		category:"Regalos",
 		subcategory:"",
-		wording:"Colgante Pili",
+		wording:"Colgante Nieves",
 	},
 	{
 		isodate:"2024-07-09",
@@ -6129,7 +6165,7 @@ const mvYaya = [
 		importeval:584.97,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar Viudedad",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2023-11-24",
@@ -6138,15 +6174,6 @@ const mvYaya = [
 		importeval:584.97,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar Viudedad",
-		wording:"",
-	},
-	{
-		isodate:"2023-11-24",
-		account:"Sabadell (Yaya)",
-		payee:"Seguridad Social",
-		importeval:439.18,
-		category:"Sueldo",
-		subcategory:"Pensión Pilar",
 		wording:"Extra",
 	},
 	{
@@ -6157,6 +6184,15 @@ const mvYaya = [
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
 		wording:"",
+	},
+	{
+		isodate:"2023-11-24",
+		account:"Sabadell (Yaya)",
+		payee:"Seguridad Social",
+		importeval:439.18,
+		category:"Sueldo",
+		subcategory:"Pensión Pilar",
+		wording:"Extra",
 	},
 	{
 		isodate:"2023-11-22",
@@ -6830,7 +6866,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Cajamar (Yaya)",
+		subcategory:"Sabadell (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -6839,7 +6875,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Sabadell (Yaya)",
+		subcategory:"Cajamar (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -7704,7 +7740,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2023-06-25",
@@ -7713,7 +7749,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2023-06-24",
@@ -24381,7 +24417,7 @@ const mvYaya = [
 		importeval:100,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ALQUILER EN LLOPN2 ALCASTILLO QU",
+		wording:"INGRESO CAJERO ALQUILER EN LLOP N2 ALCASTILLO,Q",
 	},
 	{
 		isodate:"2016-01-11",
@@ -24390,7 +24426,7 @@ const mvYaya = [
 		importeval:100,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ALQUILER EN LLOP N2 ALCASTILLO,Q",
+		wording:"INGRESO CAJERO ALQUILER EN LLOPN2 ALCASTILLO QU",
 	},
 	{
 		isodate:"2016-01-07",
@@ -25029,6 +25065,15 @@ const mvYaya = [
 		importeval:65,
 		category:"En Llop",
 		subcategory:"Alquiler",
+		wording:"INGRESO CAJERO PAGO.DIA6SEP.ENLLOP.N2.ALCASTILL",
+	},
+	{
+		isodate:"2015-09-07",
+		account:"CaixaBank (Compartida)",
+		payee:"En Llop",
+		importeval:65,
+		category:"En Llop",
+		subcategory:"Alquiler",
 		wording:"INGRESO CAJERO PAGO.ENLLOP2.DIA4SEP.ALCASTILLO.",
 	},
 	{
@@ -25039,15 +25084,6 @@ const mvYaya = [
 		category:"En Llop",
 		subcategory:"Alquiler",
 		wording:"INGRESO CAJERO PAGO.DIA5SEP.ALQ.C.ENLLOPN2.ALCA",
-	},
-	{
-		isodate:"2015-09-07",
-		account:"CaixaBank (Compartida)",
-		payee:"En Llop",
-		importeval:65,
-		category:"En Llop",
-		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO PAGO.DIA6SEP.ENLLOP.N2.ALCASTILL",
 	},
 	{
 		isodate:"2015-09-04",
