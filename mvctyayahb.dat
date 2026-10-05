@@ -1,6 +1,6 @@
 ﻿// mvYaya = Matriz con todos los movimientos de las cuentas
-// Fichero generado el 05/10/2026 a las 8:34:37
-const fDatamvYaya= "Fecha datos: 05/10/2026 - 8:34:37. Fecha último movimiento importado: 17/09/2026"
+// Fichero generado el 05/10/2026 a las 8:45:35
+const fDatamvYaya= "Fecha datos: 05/10/2026 - 8:45:35. Fecha último movimiento importado: 17/09/2026"
 const mvYaya = [
 	{
 		isodate:"2026-09-17",
@@ -1917,7 +1917,7 @@ const mvYaya = [
 		importeval:-80,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Declaraciones IRPF Pili",
+		wording:"Declaraciones IRPF Nieves",
 	},
 	{
 		isodate:"2025-06-25",
@@ -1926,7 +1926,7 @@ const mvYaya = [
 		importeval:-80,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Declaraciones IRPF Nieves",
+		wording:"Declaraciones IRPF Pili",
 	},
 	{
 		isodate:"2025-06-25",
@@ -2223,7 +2223,7 @@ const mvYaya = [
 		importeval:-177.41,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Nieves - Registro P. Valverde)",
+		wording:"Herencia yayo (Pili - Registro P. Valverde)",
 	},
 	{
 		isodate:"2025-05-08",
@@ -2232,7 +2232,7 @@ const mvYaya = [
 		importeval:-177.41,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Pili - Registro P. Valverde)",
+		wording:"Herencia yayo (Nieves - Registro P. Valverde)",
 	},
 	{
 		isodate:"2025-05-08",
@@ -2889,7 +2889,7 @@ const mvYaya = [
 		importeval:-405.63,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Pili - Registro CNP33, Garaje y Chiva42-2)",
+		wording:"Herencia yayo (Nieves - Registro CNP33, Garaje y Chiva42-2)",
 	},
 	{
 		isodate:"2025-01-30",
@@ -2898,7 +2898,7 @@ const mvYaya = [
 		importeval:-405.63,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Nieves - Registro CNP33, Garaje y Chiva42-2)",
+		wording:"Herencia yayo (Pili - Registro CNP33, Garaje y Chiva42-2)",
 	},
 	{
 		isodate:"2025-01-27",
@@ -3051,7 +3051,7 @@ const mvYaya = [
 		importeval:-328.13,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Nieves - Registro Vicomán)",
+		wording:"Herencia yayo (Pili - Registro Vicomán)",
 	},
 	{
 		isodate:"2024-12-18",
@@ -3060,7 +3060,7 @@ const mvYaya = [
 		importeval:-328.13,
 		category:"Inmuebles",
 		subcategory:"Registro",
-		wording:"Herencia yayo (Pili - Registro Vicomán)",
+		wording:"Herencia yayo (Nieves - Registro Vicomán)",
 	},
 	{
 		isodate:"2024-12-16",
@@ -4536,7 +4536,7 @@ const mvYaya = [
 		importeval:-36.3,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Alta Pili IRPF",
+		wording:"Alta Nieves IRPF",
 	},
 	{
 		isodate:"2024-04-29",
@@ -4545,7 +4545,7 @@ const mvYaya = [
 		importeval:-36.3,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Alta Nieves IRPF",
+		wording:"Alta Pili IRPF",
 	},
 	{
 		isodate:"2024-04-29",
@@ -6183,7 +6183,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2023-11-24",
@@ -6192,7 +6192,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2023-11-22",
@@ -7208,7 +7208,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Sabadell (Yaya)",
+		subcategory:"Cajamar (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -7217,7 +7217,7 @@ const mvYaya = [
 		payee:"Nieves",
 		importeval:500,
 		category:"Transferencia de",
-		subcategory:"Cajamar (Yaya)",
+		subcategory:"Sabadell (Yaya)",
 		wording:"Devolución gastos manutención",
 	},
 	{
@@ -7740,7 +7740,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2023-06-25",
@@ -7749,7 +7749,7 @@ const mvYaya = [
 		importeval:439.18,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2023-06-24",
@@ -10953,7 +10953,7 @@ const mvYaya = [
 		importeval:-211,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Herencia yayo (Pili)",
+		wording:"Herencia yayo (Nieves)",
 	},
 	{
 		isodate:"2022-08-09",
@@ -10962,7 +10962,7 @@ const mvYaya = [
 		importeval:-211,
 		category:"Gestión",
 		subcategory:"Gestoría",
-		wording:"Herencia yayo (Nieves)",
+		wording:"Herencia yayo (Pili)",
 	},
 	{
 		isodate:"2022-08-09",
@@ -11502,7 +11502,7 @@ const mvYaya = [
 		importeval:404.77,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"",
+		wording:"Extra",
 	},
 	{
 		isodate:"2022-06-25",
@@ -11511,7 +11511,7 @@ const mvYaya = [
 		importeval:404.77,
 		category:"Sueldo",
 		subcategory:"Pensión Pilar",
-		wording:"Extra",
+		wording:"",
 	},
 	{
 		isodate:"2022-06-24",
@@ -24417,7 +24417,7 @@ const mvYaya = [
 		importeval:100,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ALQUILER EN LLOP N2 ALCASTILLO,Q",
+		wording:"INGRESO CAJERO ALQUILER EN LLOPN2 ALCASTILLO QU",
 	},
 	{
 		isodate:"2016-01-11",
@@ -24426,7 +24426,7 @@ const mvYaya = [
 		importeval:100,
 		category:"En Llop",
 		subcategory:"Alquiler",
-		wording:"INGRESO CAJERO ALQUILER EN LLOPN2 ALCASTILLO QU",
+		wording:"INGRESO CAJERO ALQUILER EN LLOP N2 ALCASTILLO,Q",
 	},
 	{
 		isodate:"2016-01-07",
